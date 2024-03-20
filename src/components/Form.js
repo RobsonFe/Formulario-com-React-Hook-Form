@@ -29,7 +29,6 @@ export function Form() {
     <div className="container mt-5">
       <form
         className="row justify-content-center mx-auto"
-        style={{ width: "500px" }}
         onSubmit={handleSubmit(onSubmit)}
       >
         <div className="mb-3">
